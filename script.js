@@ -31,7 +31,7 @@ form.addEventListener('submit', (event) => {
 
    scrollTo(0, 0);
    result.classList.remove('hide');
-   resultOutput.innerHTML = `You scored ${score}/5`;
+   resultOutput.innerHTML = `You scored ${score}/10`;
 });
 
 reload.addEventListener('click', () => location.reload());
